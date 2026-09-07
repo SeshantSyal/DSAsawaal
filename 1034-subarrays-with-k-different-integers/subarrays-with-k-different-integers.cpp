@@ -11,7 +11,7 @@ public:
         {
             return 0;
         }
-        map <int,int> mp;
+        unordered_map<int,int> mp;
         int l=0;
         int r = 0;
         int n = nums.size();
